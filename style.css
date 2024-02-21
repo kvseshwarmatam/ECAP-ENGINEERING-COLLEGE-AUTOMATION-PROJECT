@@ -1,0 +1,288 @@
+/**{
+	margin: 0;
+	padding: 0;
+	font-family: Serif;
+}*/
+
+.body1{
+	background-image:url(images/1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center;	
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-right: 2px;
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: red;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}	
+ul li.active a{
+	/*background-color: #fff;*/
+	color: red;
+}
+/*.title{
+	position: absolute;
+	top: 8%;
+	left: 30%;
+	transform: translate(-50%, -50%);*/
+.title h1{
+	color: brown;
+	font-size: 27px;
+	text-align: center;
+	padding-left: 440px;
+	padding-top: 20px;
+}
+
+
+/* ADMIN*/
+
+
+.body2 {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/05.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;	
+}
+
+.Admin{
+	width: 350px;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: red;
+}
+.Admin h1{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppecase;
+    margin: 40px 0;
+}
+.Admin p{
+	font-size: 18px;
+	margin: 10px 0;
+}
+.Admin input {
+	font-size: 15px;
+	width: 100%;
+	padding: 15px 10px;
+	border-radius: 20px;
+}
+.Admin button {
+	font-size: 15px;
+    font-weight: bold;
+    margin: 15px 0;
+    padding: 15px 30px;
+    width: 90px;
+    border-radius: 30px;
+}
+
+/*      ADMIN1     */
+.body3{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/07.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;	
+}
+.title1{
+	position: absolute;
+	top: 8%;
+	left: 20%;
+	transform: translate(-50%, -50%);
+}
+.title1 h1{
+	color: #00ffff;
+	font-size: 35px;
+}
+
+
+/* STUDENT */
+.body4
+{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/06.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.student {
+	width: 350px;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: #fff;
+}
+.student h1{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppecase;
+    margin: 40px 0;
+}
+.student p{
+	font-size: 30px;
+	margin: 10px 0;
+}
+.student input {
+	font-size: 15px;
+	width: 100%;
+	padding: 15px 10px;
+	border-radius: 20px;
+}
+.student button { 
+	font-size: 15px;
+	font-weight: bold; 
+    margin: 15px 0; 
+	padding:10px 60px;
+    width: 70px;
+    border-radius: 30px;
+}
+
+
+/*        YEAR      */
+
+.body5
+{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/logo.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.year {
+	width: 350px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: #fff;
+}
+.year h1{
+	color: #00ffff;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppecase;
+    margin: 40px 0;
+}
+.year p{
+	font-size: 30px;
+	margin: 10px 0;
+}
+.year input {
+	font-size: 15px;
+	width: 100%;
+	padding: 15px 10px;
+	border-radius: 20px;
+}
+.year button { 
+	font-size: 15px;
+	font-weight: bold; 
+    margin: 15px 0; 
+	padding:10px 40px;
+    width: 70px;
+    border-radius: 30px;
+}
+
+
+
+/*     FIRST      */
+
+.body6
+{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/04.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.first {
+	width: 350px;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: #fff;
+}
+.first h1{
+	color: snow;
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppecase;
+    margin: 40px 0;
+}
+.first p{
+	font-size: 30px;
+	margin: 10px 0;
+}
+.first input {
+	font-size: 15px;
+	width: 100%;
+	padding: 15px 10px;
+	border-radius: 20px;
+}
+.first button { 
+	font-size: 15px;
+	font-weight: bold; 
+    margin: 15px 0; 
+	padding:10px 40px;
+    width: 70px;
+    border-radius: 30px;
+}
+/* ADD NEW STUDENT */
+
+
+.body7
+ {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(images/05.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;	
+}
+.ins {
+	width: 350px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: #fff;
+}
+.ins h1{
+	font-size: 30px;
+	text-align: left;
+	text-transform: uppecase;
+    margin: 40px 0;
+}
+.ins p{
+	font-size: 30px;
+	margin: 10px 0;
+}
+.ins input {
+	font-size: 15px;
+	width: 100%;
+	padding: 10px 10px;
+	border-radius: 0px;
+}
+.ins button { 
+	font-size: 15px;
+	font-weight: bold; 
+    margin: 15px 0; 
+	padding:10px 60px;
+    width: 70px;
+    border-radius: 30px;
+}
+
+
